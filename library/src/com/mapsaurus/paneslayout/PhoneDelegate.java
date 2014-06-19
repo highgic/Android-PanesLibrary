@@ -1,34 +1,22 @@
 package com.mapsaurus.paneslayout;
 
 import java.lang.ref.WeakReference;
-import java.util.ArrayList;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.view.MenuItem;
-import com.mapsaurus.panelayout.R;
-
-import android.app.SearchManager;
-import android.content.Intent;
 import android.content.res.Configuration;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.FragmentManager.OnBackStackChangedListener;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.util.Log;
-import android.view.ActionProvider;
-import android.view.SubMenu;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ContextMenu.ContextMenuInfo;
-import android.view.MenuItem.OnActionExpandListener;
-import android.view.MenuItem.OnMenuItemClickListener;
-import android.widget.FrameLayout;
-import android.widget.Toast;
+
+import com.mapsaurus.panelayout.R;
+//import com.actionbarsherlock.app.ActionBar;
+//import com.actionbarsherlock.view.MenuItem;
 
 public class PhoneDelegate extends ActivityDelegate implements OnBackStackChangedListener {
 

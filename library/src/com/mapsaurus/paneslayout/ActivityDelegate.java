@@ -1,13 +1,18 @@
 package com.mapsaurus.paneslayout;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.view.MenuItem;
+//import com.actionbarsherlock.app.ActionBar;
+//import com.actionbarsherlock.view.MenuItem;
+
+//import android.support.v7.app.ActionBarActivity;
+
+import android.support.v7.app.ActionBar;
 
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.view.MenuItem;
 import android.view.View;
 
 public abstract class ActivityDelegate {

@@ -3,17 +3,16 @@ package com.mapsaurus.paneslayout;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.ActionProvider;
+import android.view.ContextMenu.ContextMenuInfo;
+import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
-import android.view.ContextMenu.ContextMenuInfo;
-import android.view.MenuItem.OnActionExpandListener;
-import android.view.MenuItem.OnMenuItemClickListener;
 
 public class MenuItemWrapper implements android.view.MenuItem {
 
-	private com.actionbarsherlock.view.MenuItem item;
+	private MenuItem item;
 
-	public MenuItemWrapper(com.actionbarsherlock.view.MenuItem item) {
+	public MenuItemWrapper(MenuItem item) {
 		super();
 		this.item = item;
 	}
